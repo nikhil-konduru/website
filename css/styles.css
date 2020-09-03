@@ -1,0 +1,181 @@
+body {
+    margin:0;
+    overflow-x: hidden !important;
+}
+
+#logo {
+    width:70px;
+    height:70px;
+}
+
+#navigation-bar {
+    padding: 4% 6% 5% 6%;
+}
+
+
+.nav-link {
+    color:#fff !important;
+    font-size: 1.2rem;
+}
+
+#landing {
+    height: 100vh;
+    max-width:100%;
+    background-image: url('../images/nikhil-background-pic-mobile.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family:'Inter', sans-serif;
+    font-weight: bold !important;
+    font-size: 3.5rem !important;
+    position:absolute;
+    bottom: 6.5rem;
+    padding-left:3rem;
+    color: #fff;
+    font-size: 3rem;
+    line-height: 3rem;
+}
+
+#landing-desc {
+    font-family: 'Roboto Slab', serif;
+    position: absolute;
+    bottom:0;
+    left: 3rem;
+    right:3rem;
+    color: #fff;
+}
+
+
+.content h2 {
+    text-align:center;
+    padding: 1.5rem;
+}
+
+#about img { 
+    display:block;
+    margin:auto;
+    width:40%;
+}
+
+#about p {
+    text-align:center;
+    padding:1.5rem;
+    margin-left:10%;
+    margin-right:10%;
+}
+
+.content hr {
+    border-top: 1px solid;
+}
+
+#projects img {
+    max-width:100%;
+    max-height:100%;
+}
+
+#projects h5 {
+    padding-top:2rem;
+    padding-left:2rem;
+    padding-right:2rem;
+}
+
+#projects p {
+    padding-top:1rem;
+    padding-left:2rem;
+    padding-right:2rem;
+}
+
+.projects-row {
+    padding: 2rem 0 4rem;
+    display:inline-block;
+}
+
+.footer-div {
+    padding: 2% 15% 0%;
+    text-align: center;
+    margin-bottom: 0;
+    background-color: black;
+    color:#fff;
+}
+
+.footer-div p{
+    padding-top:2%;
+    margin:0;
+}
+
+.social-icon {
+    margin:1% 2% 2%;
+}
+
+a {
+    color:#fff !important;
+}
+
+/* Screens 500px and up */
+@media (min-width: 550px) {
+    #landing {
+        height: 100vh;
+        max-width:100%;
+        background-image: url('../images/nikhil-background-pic tablet-mobile.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+/* Screens 950px and up */
+
+@media (min-width:950px) {
+    body {
+        margin:0;
+        overflow-x: hidden !important;
+    }
+
+    #landing {
+        height: 100vh;
+        max-width:100%;
+        background-image: url('../images/nikhil-background-pic.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    body main #landing h1 {
+        position:absolute;
+        top: 23%;
+        right:6%;
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+    
+    #landing .landing-desc {
+        position: absolute;
+        bottom: 1rem;
+        left: 10rem;
+        color: #fff;
+        line-height:2rem;
+    }
+
+    .nav-link { 
+        padding: 0 20px !important;
+    }
+}
+
+/* Screens 1200px and up */
+
+@media (min-width:1200px) {
+    body main #landing h1 {
+        position:absolute;
+        top: 28%;
+        right:15%;
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+
+
+
+    .nav-link { 
+        padding: 0 20px !important;
+    }
+}
+
